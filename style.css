@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px 20px;
+}
+.top {
+    max-width: 500px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #DDD;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.top input {
+    flex-grow: 1;
+    padding: 10px 10px;
+    border: 1px solid #DDD;
+}
+
+.top button {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    background-color: red;
+    color: #FFF;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#search-input {
+    max-width: 500px;
+    width: 100%;
+    display: block;
+    margin: 0px auto 20px;
+    padding: 10px;
+    border: 1px solid #DDD;
+}
+
+#tasks {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    background-color: #DDD;
+    padding: 20px;
+}
+
+.div-task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c9c9c9;
+    gap: 10px;
+    width: 100%;
+    padding: 0px 0px 0px 10px;
+}
+
+.div-task #delete ,
+.div-task #edit{
+    border: none;
+    background-color: rgb(252, 34, 34);
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.div-task #edit {
+    background-color: green;
+    margin-right: 10px;
+}
